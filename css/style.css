@@ -1,17 +1,18 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: verdana;
   font-size: 16px;
 }
 .header {
   display: flex;
   width: 100%;
   align-items: center;
+
   background-color: #fca311;
 }
 .navbar {
-  background-color: #f7f7f7;
+  background-color: #fca3114d;
   overflow: hidden;
   padding: 14px 16px;
   text-decoration: none;
@@ -141,7 +142,6 @@ img:hover {
 
 .flex-child {
   flex: 1;
-  border: 2px solid yellow;
 }
 
 .flex-child:first-child {
@@ -152,11 +152,99 @@ img:hover {
   text-align: center;
 }
 
-.flex-child p {
+.flex-child.right p {
   text-align: center;
 }
 
 .flex-child img {
   width: 45%;
   height: 294px;
+}
+.flex-footerContainer {
+  display: flex;
+}
+.flex-child.footerMiddle h2 {
+  justify-content: center;
+  margin-top: 30px;
+}
+.flex-child.footerLeft {
+  margin-top: 16px;
+}
+
+.flex-child.footerLeft li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.flex-child.footerLeft li a {
+  text-decoration: none;
+}
+.flex-child.footerRight h2 {
+  margin-top: 30px;
+}
+
+.flex-footerContainer {
+  background-color: #fca3114d;
+  margin-top: 20px;
+}
+.fa {
+  padding: 20px;
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 50px;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+.fa:hover {
+  opacity: 0.9;
+}
+.flex-child.footerMiddle li {
+  list-style: none;
+}
+
+.flex-child.footerMiddle ul {
+  display: flex;
+}
+
+.flex-child.footerMiddle a {
+  width: 10%;
+  height: 6%;
+}
+.flex-container {
+  background-color: #fca3114d;
 }
